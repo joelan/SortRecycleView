@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+    <cn.crazyjoe.sortrecycleviewlib.SidebarRecycleView
+        android:id="@+id/sibar_recycleview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:chooseTextColor="@android:color/white"
+        app:textColor="#030303"
+        app:backgroundColor="#BE0FA7EC"
+        app:letterbackgroundColor="@color/transparent"
+
+        app:letterBgStrokeColor="@color/transparent"
+        app:textSize="13sp"
+        app:hintTextSize="32sp"
+        app:radius="26dp"
+        app:circleRadius="30dp"
+        >
+        <!-- 默认  radius 20   circle 24-->
+
+    </cn.crazyjoe.sortrecycleviewlib.SidebarRecycleView>
+
+</LinearLayout>

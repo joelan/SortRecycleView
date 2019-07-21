@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:id="@+id/data_recycle_view"
+        android:layout_height="match_parent">
+    </android.support.v7.widget.RecyclerView>
+    <cn.crazyjoe.sortrecycleviewlib.Sidebar
+        android:id="@+id/sideBar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:chooseTextColor="@android:color/white"
+        app:textColor="#969696"
+        app:backgroundColor="#bef9b81b"
+        app:textSize="10sp"
+        app:hintTextSize="32sp"
+        app:radius="20dp"
+        app:circleRadius="24dp"/>
+</RelativeLayout>
