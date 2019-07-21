@@ -1,11 +1,13 @@
 apply plugin: 'com.github.dcendents.android-maven'
 apply plugin: 'com.jfrog.bintray'
 
+
+
 def siteUrl = 'https://github.com/joelan/SortRecycleView'	//Homepage URL of the library
 def gitUrl = 'https://github.com/joelan/SortRecycleView'	//Git repository url
 def issueUrl = 'https://github.com/joelan/SortRecycleView/issues'	//issue url of the library
 
-def inception = '2018'
+def inception = '2019'
 def userid = 'joelan'
 def emailx="joe544351900@sina.cn"
 def username ="Joelanlrq"
@@ -98,7 +100,7 @@ bintray {
     pkg {
         repo = "maven"	//发布到Bintray的哪个仓库
         name = "SortRecycleView"	//发布到Bintray上的名字
-        desc = "resemble Sort  Index "	//项目描述
+        desc = "resemble Sort Index  recycleview"	//项目描述
         websiteUrl = siteUrl
         vcsUrl = gitUrl
         issueTrackerUrl = issueUrl
