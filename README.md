@@ -35,7 +35,9 @@ Step 2. Add the dependency
         app:radius="26dp"
         app:circleRadius="30dp"
         >
-        <!-- 默认  radius 20   circle 24-->
+        <!-- 默认  radius 20  波浪弧度半径
+                
+circle 24   选中字母文字圈半径  -->
 
     </cn.crazyjoe.sortrecycleviewlib.SidebarRecycleView>
 
