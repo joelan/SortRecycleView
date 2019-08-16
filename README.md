@@ -74,6 +74,8 @@ List<UserEntitity>  list=new ArrayList<>();
         }
 
         recycleView=findViewById(R.id.sibar_recycleview);
+	
+      //字母分组字体颜色和分组背景
         TitleItemDecoration titleItemDecoration=new TitleItemDecoration.Builder<UserEntitity>(this,sordata)
                 .setTitileTextColor(getResources().getColor(R.color.black))
                 .setTitleTextBgColor(getResources().getColor(R.color.gray)).build();
