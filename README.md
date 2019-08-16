@@ -43,7 +43,7 @@ Step 2. Add the dependency
 
 
 
-#3.使用例子，必须SortModel作为，adapter里实现IBaseAdapter方法，传递当前同时adapter类型，实现 getPositionForSection方法。参考例子
+# 3.使用例子，必须SortModel作为，adapter里实现IBaseAdapter方法，传递当前同时adapter类型，实现 getPositionForSection方法。参考例子
 
 ···java
 List<UserEntitity>  list=new ArrayList<>();
