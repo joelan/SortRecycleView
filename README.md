@@ -1,7 +1,6 @@
 # SortRecycleView
-[![](https://jitpack.io/v/joelan/SortRecycleView.svg)](https://jitpack.io/#joelan/SortRecycleView)
-To get a Git project into your build:
 
+## 最新版本[![](https://jitpack.io/v/joelan/SortRecycleView.svg)](https://jitpack.io/#joelan/SortRecycleView)
 Step 1. Add the JitPack repository to your build file
 Add it in your root build.gradle at the end of repositories:
 
