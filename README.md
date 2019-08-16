@@ -19,7 +19,7 @@ Step 2. Add the dependency
 
 
 # 2.在布局文件加入SortRecycleView
-```java
+```html
     <cn.crazyjoe.sortrecycleviewlib.SidebarRecycleView
         android:id="@+id/sibar_recycleview"
         android:layout_width="match_parent"
